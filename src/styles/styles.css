@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container-page{
+    margin: 0px;
+    width: 1280px;
+    height: 800px;
+    background-color: red;
+    overflow: hidden;
+}
+.imgtest{
+    width: 100px;
+}
+.container-climate{
+    height: 704px;
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.contaier-carousel{
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+}
+.current-carousel{
+    border-radius: 16px;
+}
