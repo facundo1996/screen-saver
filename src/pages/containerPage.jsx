@@ -8,6 +8,7 @@ import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
 
 import Climate from '../components/climate.jsx'
+import Clock from '../components/clock.jsx'
 import test1 from '../styles/images/test.jpg';
 import test2 from '../styles/images/test2.jpg';
 
@@ -18,7 +19,7 @@ export function ContainerPage () {
 				<Climate />
 			</SplideSlide>
 			<SplideSlide>
-				<img src={test2} className='imgtest' alt="description of test" />
+				<Clock />
 			</SplideSlide>
 		</Splide>
 	</div>
